@@ -10,3 +10,7 @@ d <- read.csv("pml-training.csv")
 head( names( d))
 ```
 
+Make a table of the users
+```{r}
+table( d$user_name)
+```
