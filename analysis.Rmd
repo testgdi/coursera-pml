@@ -1,0 +1,12 @@
+# Analysis of the HAR data for Coursera Practial Machine Learning
+
+## Author: testgdi
+
+Let's read the data
+
+```{r}
+d <- read.csv("pml-training.csv")
+
+head( names( d))
+```
+
