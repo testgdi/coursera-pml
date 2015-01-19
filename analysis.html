@@ -208,19 +208,12 @@ hr {
 <p>Let&#39;s read the data</p>
 
 <pre><code class="r">d &lt;- read.csv(&quot;pml-training.csv&quot;)
+
+head( names( d))
 </code></pre>
 
-<pre><code>## Warning in file(file, &quot;rt&quot;): cannot open file &#39;pml-training.csv&#39;: No such
-## file or directory
-</code></pre>
-
-<pre><code>## Error in file(file, &quot;rt&quot;): cannot open the connection
-</code></pre>
-
-<pre><code class="r">head( names( d))
-</code></pre>
-
-<pre><code>## Error in head(names(d)): object &#39;d&#39; not found
+<pre><code>## [1] &quot;X&quot;                    &quot;user_name&quot;            &quot;raw_timestamp_part_1&quot;
+## [4] &quot;raw_timestamp_part_2&quot; &quot;cvtd_timestamp&quot;       &quot;new_window&quot;
 </code></pre>
 
 </body>
